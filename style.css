@@ -1,0 +1,146 @@
+html,
+body,
+ul,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif; 
+  font-weight: 300; 
+  background-color: #161313;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    color: hsl(0, 11%, 95%);
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto; 
+  width: 750px;  
+} 
+.pull-left{
+  float: left;
+}
+.pull-right {
+  float: right; 
+}
+.header img {
+  height: 100px; 
+  width: 100px; 
+  padding-top: 10px;/*review padding later*/
+  padding-bottom: 10px; /*review padding later*/
+}  
+.header ul {
+  list-style: none;
+  padding-top: 54px; /*?*/
+  padding-bottom: 24px;  /*review padding later*/
+}
+.header li {
+  color: #228B22;
+  display: inline;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none; 
+  color: #161313; 
+}
+.main {
+  clear: both;
+  background-size: 100%;
+  height: 1000px; 
+  text-align: center;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  color: #ffffff; 
+}
+#main-container {
+  position: relative;
+  top: 395px; 
+  margin-left: auto;
+  margin-right: auto; 
+}
+.main h1 {
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -1.2px; 
+}
+.main p {
+  font-size: 25px;
+  padding-top: 5px;
+}
+.btn {
+  text-decoration: none;
+  background-color: #228B22;
+  border-color: #f15a29;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 700; 
+  letter-spacing: 1.5px;
+  margin-top: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 26px;
+  padding-right: 26px;
+  text-transform: uppercase;
+}
+.gallery {
+  margin-right: auto; 
+  margin-left: auto;
+  width: 1000px; 
+}
+.gallery img {
+  height: 200px; 
+  width: 300px; 
+  margin: 10px; 
+  border: 2px solid #ffffff; 
+  border-radius: 5px;
+}
+.h1gallery {
+  text-align: center;
+  position: center;
+  margin: 50px auto 30px auto; 
+} 
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom:0;
+    width:100%
+}
