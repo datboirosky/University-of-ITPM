@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+/* About*/
+  main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  section {
+    background: #6b6d6e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: rgb(51, 53, 67);
+    margin-top: 0;
+  }
+  
+  .mission-vision {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .mission, .vision {
+    flex: 1;
+  }
+  
+  .values ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .values li {
+    background: #6b6d6e;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid #4CAF50;
+  }
+  
+  .call-to-action {
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 30px;
+  }
+  
+  .call-to-action h2 {
+    color: white;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .cta-button:hover {
+    background-color: #f4f4f4;
+  }
+  
+ 
